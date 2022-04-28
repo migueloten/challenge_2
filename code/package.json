@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "api_serve": "json-server --watch data.json"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
+    "json-server": "^0.17.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
